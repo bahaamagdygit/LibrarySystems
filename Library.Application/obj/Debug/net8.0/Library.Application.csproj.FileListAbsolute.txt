@@ -1,0 +1,17 @@
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Application.deps.json
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Application.dll
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Application.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Dtos.dll
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Models.dll
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Dtos.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Application\bin\Debug\net8.0\Library.Models.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.csproj.AssemblyReference.cache
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.AssemblyInfoInputs.cache
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.AssemblyInfo.cs
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.csproj.CoreCompileInputs.cache
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.csproj.CopyComplete
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.dll
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\refint\Library.Application.dll
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\Library.Application.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Application\obj\Debug\net8.0\ref\Library.Application.dll

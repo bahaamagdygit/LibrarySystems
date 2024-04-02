@@ -1,0 +1,17 @@
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Context.deps.json
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Context.runtimeconfig.json
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Context.dll
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Context.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Models.dll
+F:\MyMVC_Core\LibrarySystems\Library.Context\bin\Debug\net8.0\Library.Models.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.csproj.AssemblyReference.cache
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.AssemblyInfoInputs.cache
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.AssemblyInfo.cs
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.csproj.CoreCompileInputs.cache
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.csproj.CopyComplete
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.dll
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\refint\Library.Context.dll
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.pdb
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\Library.Context.genruntimeconfig.cache
+F:\MyMVC_Core\LibrarySystems\Library.Context\obj\Debug\net8.0\ref\Library.Context.dll
