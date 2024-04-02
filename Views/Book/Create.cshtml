@@ -1,0 +1,44 @@
+﻿@using Library.Dtos.Book
+@model CreateOrUpdateBookDTO
+@{
+    ViewData["Title"] = "Create";
+    SelectList list = new SelectList(ViewBag.Authors, "Id", "Name");
+}
+
+
+<h1>Create</h1>
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"> </div>
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" style="color:red"></span>
+    </div>
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" style="color:red"></span>
+    </div>
+    
+    <div>
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" style="color:red"></span>
+    </div>
+    <div>
+        <label asp-for="ISBN"></label>
+        <input asp-for="ISBN" class="form-control" />
+        <span asp-validation-for="ISBN" style="color:red"></span>
+    </div>
+    <div>
+        <label asp-for="AuthorId"></label>
+        <select asp-for="AuthorId" class="form-control" asp-items="list">
+            <option value="">-- Select Author --</option>
+        </select>
+        <span asp-validation-for="AuthorId" style="color:red"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

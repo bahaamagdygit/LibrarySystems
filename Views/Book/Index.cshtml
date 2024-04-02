@@ -1,0 +1,46 @@
+﻿@using Library.Dtos.Book
+@using Library.Dtos.ViewResult
+ @model ResultDataList<GetAllBookDTO>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th class="text-center" scope="col">Book Title</th>
+            <th class="text-center" scope="col">Book ISBN</th>
+            <th class="text-center" scope="col">Book Price</th>
+            <th class="text-center" scope="col">AuthorName</th>
+            <th class="text-center" scope="col">Update</th>
+            <th class="text-center" scope="col">Delete</th>
+            <th class="text-center" scope="col">Add To Cart</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (GetAllBookDTO boo in Model.Entities)
+        {
+            <tr>
+                <td class="text-center">@boo.Title</td>
+                <td class="text-center">@boo.ISBN</td>
+                <td class="text-center">@boo.Price</td>
+                <td class="text-center">@boo.AuthorName</td>
+
+                <td class="text-center">
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@boo.Id">Update</a>
+                </td>
+                   @*  <a asp-action="Details" class="btn btn-info" asp-route-id="@boo.Id">Details</a> | *@
+                <td class="text-center">
+                    <a asp-action="HardDelete" class="btn btn-danger" asp-route-id="@boo.Id">Delete</a>
+                </td>
+                <td class="text-center">
+                    <a asp-action="AddtoCart" class="btn btn-success" asp-route-id="@boo.Id" asp-route-Title="@boo.Title">Add To Cart</a>
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+

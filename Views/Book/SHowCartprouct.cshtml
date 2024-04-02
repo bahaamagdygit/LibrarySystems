@@ -1,0 +1,51 @@
+﻿@using Library.Dtos.Book
+@using Library.Dtos.ViewResult
+ @model ResultDataList<GetAllBookDTO>
+@{
+    ViewData["Title"] = "Cart";
+
+}
+
+
+
+
+<div class="row justify-content-md-center">
+
+    @foreach (var item in Model.Entities)
+    {
+   
+    <div class=" container m-4 ">
+            <div class="card border-0 rounded-0 shadow" style="width: 18rem;">
+                <img src="~/css/book.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body mt-3 mb-3">
+                    <div class="row">
+                        <div class="col-10">
+                            <h4 class="card-title">BookName : @item.Title</h4>
+                            <p class="card-text">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                Author Name :   @item.AuthorName
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <i class="bi bi-bookmark-plus fs-2"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center text-center g-0">
+                    <div class="col-4">
+                        <h5>$@item.Price</h5>
+                    </div>
+                    <div class="col-8">
+                        <a asp-action="AddtoCart" asp-route-productname="@item.Title" asp-route-productID="@item.Id" class=" btn btn-dark w-100 p-3 rounded-0 text-warning">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+
+    }
+</div>
